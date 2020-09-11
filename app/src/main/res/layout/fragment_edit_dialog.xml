@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    tools:context=".dialog.EditDialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtEditBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_back_dark"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/seguisb"
+            android:padding="10dp"
+            android:text="Edit "
+            android:textColor="#212121"
+            android:textSize="20sp"
+            app:drawableTint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/etEditClass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawableLeft="@drawable/ic_class"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/colorAccent"
+            android:ems="10"
+            android:fontFamily="@font/seguisb"
+            android:hint="Enter Class"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="#707070"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etEditYear"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawableLeft="@drawable/ic_year"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/colorAccent"
+            android:ems="10"
+            android:fontFamily="@font/seguisb"
+            android:hint="Enter Year (Y)"
+            android:inputType="number"
+            android:maxLength="1"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="#707070"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtEditSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/shape_acc_fill"
+            android:fontFamily="@font/seguisb"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="10dp"
+            android:text="Save"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

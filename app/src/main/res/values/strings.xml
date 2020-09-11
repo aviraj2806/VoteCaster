@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">VoteCaster</string>
+    <string name="quote">Always vote for principle, though you may vote <font color="#dc4e41">alone</font>, and you may cherish the sweetest reflection that your vote is <font color="#dc4e41">never lost.</font></string>
+    <string name="not_registered_yet">Not <font color="#dc4e41">Registered</font> Yet ?</string>
+    <string name="voter">Hello <font color="#dc4e41">Voter,</font>\nYou are only one step\naway from <font color="#dc4e41">your right.</font></string>
+    <string name="pref_file">Votecaster Pref File</string>
+    <string name="college_details"><font color="#dc4e41">College</font> Details :</string>
+    <string name="votecaster">Vote<font color="#dc4e41">Caster</font></string>
+    <string name="candidate_moto">Candidate <font color="#dc4e41">Moto</font> :</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

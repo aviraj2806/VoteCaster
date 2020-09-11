@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "447996074352",
+    "firebase_url": "https://votecaster-2d110.firebaseio.com",
+    "project_id": "votecaster-2d110",
+    "storage_bucket": "votecaster-2d110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447996074352:android:6185866eddbdf7acf297b5",
+        "android_client_info": {
+          "package_name": "com.shweta.votecaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447996074352-e8pkgsn374hv4ghsir5apt2t4rf8nk8c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shweta.votecaster",
+            "certificate_hash": "8ed3390aafccd1d6ef727bc74ab273031272a11a"
+          }
+        },
+        {
+          "client_id": "447996074352-r3lmpsrivc2g47v8q7m7kbsjll9dd60a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC97aaXBm_NTSLMGWTU26L6LQekVPJldh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447996074352-r3lmpsrivc2g47v8q7m7kbsjll9dd60a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
